@@ -29,7 +29,7 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    height: 90vh;
 }
 
 .content-pr-txt-btn h2{
@@ -472,4 +472,22 @@ a {
   }
   .hidden {
     display: none;
+  }
+
+  .img-zenitsu{
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .img-zenitsu button{
+    background-color: transparent;
+    border-radius: 50%;
+  }
+
+  .btn-zenitsu:hover {
+    background-color: #ffdc72cb;
+    box-shadow: 0 0 5px #ffd968bd,
+                0 0 25px   #ffd968bd,
+                0 0 50px   #ffd968bd,
+                0 0 100px   #ffd968bd;
   }
